@@ -1,0 +1,15 @@
+h1,p{color:white;font-family: 'Comic Sans MS', cursive;font-size:300%;text-align: center;}
+
+font.tomori{color: indigo;font-family: 'Comic Sans MS', cursive;font-size: 150%;}
+font.anon{color: pink;font-family: 'Comic Sans MS', cursive;font-size: 150%;}
+font.raana{color: white;font-family: 'Comic Sans MS', cursive;font-size: 150%;}
+font.soyo{color: D2B48C;font-family: 'Comic Sans MS', cursive;font-size: 150%;}
+font.taki{color: purple;font-family: 'Comic Sans MS', cursive;font-size: 150%;}
+
+body
+{background-image: url('mygostage.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ height: 320vh;
+ margin: 0;}
