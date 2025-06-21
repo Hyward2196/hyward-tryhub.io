@@ -1,0 +1,17 @@
+h1,p{background:darkblue; color:white;font-family: 'Comic Sans MS', cursive;font-size:300%;text-align: center;}
+
+ul{background:lightblue; padding:100px; height:fit-content; width:fit-content;}
+
+font.tomori{color: indigo;font-family: 'Comic Sans MS', cursive;font-size: 150%; font-weight:bold;}
+font.anon{color: pink;font-family: 'Comic Sans MS', cursive;font-size: 150%; font-weight:bold;}
+font.raana{color: white;font-family: 'Comic Sans MS', cursive;font-size: 150%; font-weight:bold;}
+font.soyo{color: D2B48C;font-family: 'Comic Sans MS', cursive;font-size: 150%; font-weight:bold;}
+font.taki{color: purple;font-family: 'Comic Sans MS', cursive;font-size: 150%; font-weight:bold;}
+
+body
+{background-image: url('mygostage.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ height: 500vh;
+ margin: 0;}
