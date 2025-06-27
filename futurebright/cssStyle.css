@@ -1,0 +1,421 @@
+body
+{
+	background-color:aqua;
+	font-family: Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header, footer
+{
+	background-color: #003366;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+font.apply
+{
+	color:white;
+	font-family: 'Comic Sans',cursive;
+	font-size: 50px;
+	font-weight:bold;
+}
+nav
+{
+	text-decoration: none;
+	position:sticky;
+	top:0;
+	background-color: #50769b;
+	padding:20px;
+	z-index:100;
+	text-align:center;
+}
+
+ul.stat
+{
+	list-style-type:none;
+	margin:0;
+	background-color:#50769b;
+	padding:20px;
+	text-align:center;
+	display:flex;
+	font-size:50px;
+	color:white;
+}
+nav ul
+{
+	text-decoration: none;
+	list-style: none;
+	margin:0;
+	padding: 0;
+	display:flex;
+	justify-content: center;
+	gap: 15px;
+	background-color: #50769b;
+}
+
+nav ul li
+{
+	position:relative;
+}
+nav ul li a
+{
+	text-decoration: none;
+	display: block;
+	padding: 8px 12px;
+	color: white;
+	font-weight: bold;
+	border-radius :4px;
+}
+
+nav ul li a:hover
+{
+	margin: 10px;
+	color: orange;
+	font-weight: bold;
+	background-color:white;
+}
+
+nav ul li ul
+{
+	display:none;
+	position:absolute;
+	background-color:#003366;
+	padding:10px;
+	border-radius:4px;
+	top:100%;
+	left:0;
+	min-width:150px;
+	z-index:1000;
+}
+
+nav ul li:hover ul
+{
+	display:block;
+}
+
+nav ul li ul li
+{
+	display: block;
+}
+
+div.home-text
+{
+	text-align: center;
+	background-color: antiquewhite;
+	padding: 30px;
+}
+
+div a.cta-button
+{
+	background-color:#003366;
+	color:white;
+	padding: 35px;
+	text-decoration:none;
+	border-radius:20px;
+}
+
+h2.choose
+{
+	color: orange;
+	font-size: 2.5em;
+	margin-bottom:15px;
+}
+
+h2.news
+{
+	background-color: #003366;
+	padding: 35px;
+	width: fit-content;
+	color: orange;
+	font-size: 100px;
+}
+
+section.why
+{
+	background-color:orange;
+	padding:35px;
+}
+section.newsANDevent
+{
+	background-image: url(event.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0;
+	padding:30px;
+	border-left: 5px solid orange;
+	border-radius: 8px;
+}
+
+ul.event
+{
+	background-color: silver;
+	width:fit-content;
+	list-style-type:none;
+	padding-left: 20px;
+	font-size :50px;
+	color: darkblue;
+	font-weight:bold;
+}
+
+ul.event li
+{
+	margin-bottom:10px;
+	line-height: 1.5;
+}
+
+section.gallery
+{
+	background-color: grey;
+	padding:35px;
+	width:80%;
+	margin-left: 8%;
+	border-radius:70px;
+}
+
+h2.campus
+{
+	border-radius: 35px;
+	background-color: darkblue;
+	padding:20px;
+	width:fit-content;
+	color: darkgoldenrod;
+	font-size:100px;
+
+}
+
+h2.about
+{
+	text-align: center;
+	background-color: #003366;
+	color: white;
+	font-size:80px;
+}
+section.intro
+{
+	background-color:antiquewhite;
+	width:fit-content;
+	color:orange;
+	font-family:'Times New Roman', Times, serif;
+	font-size: 40px;
+}
+
+h2.course
+{
+	background-color:aliceblue;
+	padding:10px;
+	border-radius: 70px;
+	color:#003366;
+	font-size: 80px;
+	text-align: center;
+}
+
+td.foot
+{
+	background-color: #003366;
+	color: white;
+}
+td 
+{
+	background-color: white;
+	width: 700px;
+	padding: 10px;
+	height: 400px;
+	
+}
+
+td.cs a
+{
+	text-decoration: none;
+	display: block;
+	padding: 8px 12px;
+	border-radius :4px;
+	display:block;
+	background-color: #003366;
+	border-radius: 10px;
+	width:fit-content;
+	font-size: 50px;
+	color:white;
+	font-weight: bold;
+	margin-left:38px;
+		
+}
+
+td.cs a:hover
+{
+	margin: 10px;
+	color: orange;
+	font-weight: bold;
+	background-color:white;
+	margin-left:38px;
+}
+
+td.bu a
+{
+	text-decoration: none;
+	display: block;
+	padding: 8px 12px;
+	border-radius :4px;
+	display:block;
+	background-color: #003366;
+	border-radius: 10px;
+	width:fit-content;
+	font-size: 50px;
+	color:white;
+	font-weight: bold;
+	margin-left:193px;
+		
+}
+
+td.bu a:hover
+{
+	margin: 10px;
+	color: orange;
+	font-weight: bold;
+	background-color:white;
+	margin-left:193px;
+	
+}
+
+div.cs
+{
+	background-color: antiquewhite;
+    	border-radius: 10px;
+    	padding: 20px;
+    	margin-bottom: 30px;
+    	box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+	font-size: 40px;
+	color:black;
+}
+
+div.bu
+{
+	background-color: antiquewhite;
+    	border-radius: 10px;
+    	padding: 20px;
+    	margin-bottom: 30px;
+    	box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+	font-size: 40px;
+	color:black;
+}
+
+ul.foot
+{
+	list-style: none;
+}
+ul.foot li a
+{
+	text-decoration: none;
+	font-size:30px;
+	color: white;
+	text-align: center;
+}
+ul
+{
+	padding-left: 40px;
+}
+
+div span.label
+{
+	font-weight: bold;
+	color:#003366;
+}
+
+section.addmission
+{
+	background-image: url("add.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+section.add
+{
+	background-color: silver;
+	border-radius:30px;
+	margin-left: 200px;
+	margin-right: 200px;
+	
+}
+
+h2.add
+{
+	font-size: 50px;
+	text-align:center;	
+}
+
+section.student
+{
+	background-image: url("book.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;	
+}
+label
+{
+	margin-left:100px;
+	font-size:30px;
+}
+
+button
+{
+	background-color: blue;
+	font-size: 40px;
+	font-weight: bold;
+	border-radius: 30px;
+	border-color: goldenrod;
+}
+
+p.strength
+{
+	margin-left:110px;
+	font-weight: bold;
+}
+p.year
+{
+	margin-left: 20px;
+	font-size:50px;
+	font-weight:bold;
+}
+
+section.stu
+{
+	background-color: silver;
+	width:1100px;
+	height:600px;
+	border-radius:30px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+section.contact
+{
+	background-image: url("connect.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;	
+}
+section.con
+{
+	background-color: silver;
+	width:1100px;
+	height:500px;
+	border-radius:30px;
+	border-radius:30px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+form input, form textarea, form button
+{
+	display: block;
+	margin-left: 100px;
+	padding: 8px;
+	width: 50%;
+	max-width: 910px;
+}
+
